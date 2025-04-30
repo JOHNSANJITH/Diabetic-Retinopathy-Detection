@@ -1,4 +1,6 @@
-Diabetic Retinopathy Detection using Deep Learning
+<h1 align="center">Diabetic Retinopathy Detection using Deep Learning</h1>
+
+
 
 
 This project applies deep learning to detect diabetic retinopathy, a complication of diabetes that affects the retina and can lead to blindness if not diagnosed in time. Using a CNN trained on thousands of labeled retinal images. 
