@@ -14,8 +14,7 @@ The use of such a model not only accelerates the screening process but also incr
 
 
 
-
-Model Overview
+### Model Overview
 
 • Model: CNN (e.g., ResNet50, VGG16, or custom architecture)
 
@@ -25,7 +24,7 @@ Model Overview
 
 
 
-Dataset
+### Dataset
 
 • Dataset Used: Kaggle Diabetic Retinopathy Resized Dataset
 
@@ -35,7 +34,7 @@ Dataset
 
 
 
-Features
+### Features
 
 • Image preprocessing and augmentation
 
@@ -47,7 +46,7 @@ Features
 
 
 
-Future Work
+### Future Work
 
 • Integration with a web application
 
