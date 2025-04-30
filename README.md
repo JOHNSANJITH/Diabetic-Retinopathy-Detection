@@ -13,6 +13,7 @@ The use of such a model not only accelerates the screening process but also incr
 
 
 Model Overview
+
 • Model: CNN (e.g., ResNet50, VGG16, or custom architecture)
 
 • Framework: TensorFlow / Keras / PyTorch
@@ -22,6 +23,7 @@ Model Overview
 
 
 Dataset
+
 • Dataset Used: Kaggle Diabetic Retinopathy Resized Dataset
 
 • Source: https://www.kaggle.com/datasets/tanlikesmath/diabetic-retinopathy-resized
@@ -31,6 +33,7 @@ Dataset
 
 
 Features
+
 • Image preprocessing and augmentation
 
 • Training and validation split
@@ -42,6 +45,14 @@ Features
 
 
 Future Work
+
+• Integration with a web application
+
+• Improved model explainability (e.g., Grad-CAM visualization)
+
+• Deploying the model as an API
+
+
 • Integration with a web application
 
 • Improved model explainability (e.g., Grad-CAM visualization)
