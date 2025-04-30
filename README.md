@@ -1,32 +1,49 @@
-# Diabetic-Retinopathy-Detection
-This project uses a deep learning model to classify retinal images into different stages of diabetic retinopathy. It aims to assist early detection and diagnosis using automated techniques.
+Diabetic Retinopathy Detection using Deep Learning
+
+
+This project applies deep learning to detect diabetic retinopathy, a complication of diabetes that affects the retina and can lead to blindness if not diagnosed in time. Using a CNN trained on thousands of labeled retinal images. 
+The model can classify the severity of the disease into five categories: 
+• No DR 
+• Mild
+• Moderate 
+• Severe 
+• Proliferative DR 
+The use of such a model not only accelerates the screening process but also increases accessibility in regions with limited access to ophthalmologists. By leveraging image preprocessing, data augmentation, and advanced architectures (like ResNet or VGG), the model learns to distinguish subtle visual features indicative of disease progression. This kind of DL-powered system has the potential to be integrated into real-time clinical tools, telemedicine platforms, or mobile diagnostic apps—supporting better healthcare outcomes through early, accurate, and scalable detection.
+
+
 
 Model Overview
-Model: CNN (e.g., ResNet50, VGG16, or custom architecture)
+• Model: CNN (e.g., ResNet50, VGG16, or custom architecture)
 
-Framework: TensorFlow / Keras / PyTorch
+• Framework: TensorFlow / Keras / PyTorch
 
-Classes: No DR, Mild, Moderate, Severe, Proliferative DR
+• Classes: No DR, Mild, Moderate, Severe, Proliferative DR
+
+
 
 Dataset
-Dataset used: [APTOS 2019 / Kaggle DR Dataset / Other]
+• Dataset Used: Kaggle Diabetic Retinopathy Resized Dataset
 
-Source: https://www.kaggle.com/datasets/tanlikesmath/diabetic-retinopathy-resized
+• Source: https://www.kaggle.com/datasets/tanlikesmath/diabetic-retinopathy-resized
 
-Images were preprocessed (resized, normalized, augmented)
+• Preprocessing: Images were resized, normalized, and augmented.
+
+
 
 Features
-Image preprocessing and augmentation
+• Image preprocessing and augmentation
 
-Training and validation split
+• Training and validation split
 
-Evaluation with accuracy, confusion matrix, and AUC
+• Evaluation using accuracy, confusion matrix, and AUC
 
-Model saving and loading
+• Model saving and loading
+
+
 
 Future Work
-Integration with a web app
+• Integration with a web application
 
-More explainability (e.g., Grad-CAM)
+• Improved model explainability (e.g., Grad-CAM visualization)
 
-Deploy model as API
+• Deploying the model as an API
