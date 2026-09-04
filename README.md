@@ -834,7 +834,7 @@ The project is designed to demonstrate both **machine-learning capability and so
 | Docker | Complete |
 | Automated tests | Complete |
 | Documentation | Complete |
-| Real benchmark training | complete |
+| Real benchmark training | Complete |
 
 > Benchmark metrics will be added only after an actual training and evaluation run on the selected dataset.
 
