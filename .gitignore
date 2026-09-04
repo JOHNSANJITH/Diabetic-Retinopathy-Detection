@@ -1,0 +1,15 @@
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.DS_Store
+.env
+*.log
+.ipynb_checkpoints/
+data/raw/
+data/processed/
+artifacts/*.png
+artifacts/evaluation/
+models/*.keras
+models/*.h5
+models/*.weights.h5
