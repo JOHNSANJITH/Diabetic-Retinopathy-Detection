@@ -84,7 +84,7 @@ The emphasis is on building an **engineered ML system**, not only training a neu
                                     ▼
                     ┌───────────────────────────────┐
                     │           Xception            │
-                    │     ImageNet Transfer        │
+                    │     ImageNet Transfer         │
                     │          Learning             │
                     └───────────────┬───────────────┘
                                     │
